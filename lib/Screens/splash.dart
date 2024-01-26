@@ -6,6 +6,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text("Chat"),
       ),
@@ -15,3 +16,4 @@ class SplashScreen extends StatelessWidget {
     );
   }
 }
+ 
